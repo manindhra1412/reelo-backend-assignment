@@ -1,6 +1,6 @@
 # Reelo Coding Assignment
 
-Design and implement a Question Paper Generator application
+Design and implement a Question Paper Generator backend-application
 
 ## Table of Contents
 
