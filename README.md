@@ -16,7 +16,7 @@ Design and implement a Question Paper Generator backend-application
 
 ```bash
 git clone https://github.com/manindhra1412/reelo-backend-assignment.git
-cd ASSIGNMENT
+cd reelo-backend-assignment
 npm install
 ```
 
