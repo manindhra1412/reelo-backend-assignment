@@ -15,7 +15,7 @@ app.get('/',(req,res)=>{
 app.post('/generate-paper',(req,res)=>{
     const {totalMarks,difficultyDistribution}=req.body;
     if(!totalMarks || !difficultyDistribution) res.status(400).json({error:"Total marks or difficulty distribution is not provided"});
-    
+    // logic for generating paper is written in generatePaper.js file
     const questionPaper=generatePaper(totalMarks,difficultyDistribution);
     res.json(questionPaper);
 })
